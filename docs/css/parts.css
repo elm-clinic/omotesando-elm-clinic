@@ -843,7 +843,7 @@ span.mask{
 
 }
 
-/*　closeというクラスがついたら形状変化　*/
+/* closeというクラスがついたら形状変化 */
 
 .title.close::before{
 transform: rotate(45deg);
@@ -861,4 +861,23 @@ transform: rotate(-45deg);
 	padding: 3%;
 	font-size: small;
 	text-align: left;
+}
+
+
+/*全て共通：hideエリアをはじめは非表示*/
+.hide-area{
+	display: none;
+}
+
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+	background:#ccc;	
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#666;
 }

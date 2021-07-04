@@ -881,3 +881,29 @@ transform: rotate(-45deg);
 .modaal-close:hover:before{
 	background:#666;
 }
+
+
+/* timer */
+
+
+.timer {
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: center;
+	display: block;
+  position: relative;
+  width: 80%;/*ボタンの幅*/
+  padding: 10px 0;
+  margin: 30px auto;
+  background-color: rgb(83, 72, 72, 0.6);/*ボタンの色*/
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+.timer span {
+	font-size: 1.7rem;
+}

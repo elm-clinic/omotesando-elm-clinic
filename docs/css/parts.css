@@ -907,3 +907,19 @@ transform: rotate(-45deg);
 .timer span {
 	font-size: 1.7rem;
 }
+
+
+.address {
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 0.3rem;
+}
+
+/* 店舗情報・地図 */
+#location {
+	padding: 4% 0;
+}
+
+.location-map {
+	width: 100%;
+}

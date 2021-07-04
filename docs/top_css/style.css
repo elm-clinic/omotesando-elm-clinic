@@ -734,3 +734,37 @@ iframe {
   margin-top: 10vw;
   border-radius: 10px;
 }
+
+/*
+SPEAKERS
+================================================ */
+#area-3 {
+	padding: 4rem 1rem;
+}
+
+.speakers-list {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	margin-bottom: 2rem;
+}
+.speakers-text {
+	margin-left: 1rem;
+}
+
+#area-3 h2 {
+background: linear-gradient(var(--orange), var(--pink));
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-fill-color: transparent;
+}
+
+#area-3 h3 {
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+}
+#area-3 img {
+	border-radius: 50%;
+	width: 20%;
+}

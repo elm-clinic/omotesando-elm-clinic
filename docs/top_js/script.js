@@ -106,6 +106,7 @@ $(window).on('load',function(){
 
 $('.slider').slick({
 	autoplay: true,//自動的に動き出すか。初期値はfalse。
+	autoplaySpeed: 1500, //デフォルト3000ms
 	infinite: true,//スライドをループさせるかどうか。初期値はtrue。
 	swipe: true,
 	slidesToShow: 3,//スライドを画面に3枚見せる

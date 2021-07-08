@@ -772,3 +772,12 @@ text-fill-color: transparent;
 .doctor-message {
 	color :red ;
 }
+
+.privacy-policy {
+  text-align: left;
+  font-size: small;
+}
+
+.privacy-flame {
+  margin: 30px;
+}
